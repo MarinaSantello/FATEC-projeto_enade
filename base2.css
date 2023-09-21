@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul, ol{
+    list-style: none;
+}
+
+header {
+    /* ORGANIZA AS TAGS FILHAS NA DIV */
+    display: flex;
+    /* OS ITENS ADICIONADOS DICAM COMO COLUNA */
+    flex-direction: column;
+    /* OS ITENS VÃO PARA O COMEÇO */
+    /* QUANDO NÃO ESTÁ EM COLUNA ELE AJUSTA AS POSIÇÕES DE FORMA HORIZONTAL, JÁ EM COLUNA, FICA DE FORMA VERTICAL */
+    justify-content: center;
+    /* QUANDO NÃO ESTÁ EM COLUNA ELE AJUSTA AS POSIÇÕES DE FORMA VERTICAL, JÁ EM COLUNA, FICA DE FORMA HORIZONTAL */
+    align-items: center;
+    align-items: start;
+    /* VAI PARA A ESQUEDA  */
+    padding-left: 0px;
+    /* VAI PARA A DIREITA */
+    padding-right: 50px;
+}
+
+.logo {
+    /* background-image: url('https://img.ibxk.com.br/2022/09/16/profissao-dev-16153228659058.jpg?ims=328x'); */
+    /* ALTURA */
+    height: 80px;
+    /* LARGURA */
+    width: 1270px;
+    /* COR DE TRÁS DO LOGO */
+    background-color: #E7BC91;
+    /* NÃO REPLICAR A IMAGEM ATÉ COMPLETAR O ESPAÇAMENTO DA DIV */
+    background-repeat: no-repeat;
+    /* MUDA O TAMANHO DA IMAGEM ADICIONADA PARA FICAR DE ACORDO COM O TAMANHO DA DIV  */
+    background-size: cover;
+    /* COR DA LETRA VERMELHA */
+    color: red;
+    /* ORGANIZA AS TAGS FILHAS */
+    display: flex;
+    /* ALINHA OS ITENS NO CENTRO */
+    align-items: center;
+    justify-content: center;
+
+/* PEGA A DIV PAI E A IMAGEM QUE ESTÁ DENTRO DELA */
+}
+.logo img {
+    height: 50px;
+
+
+}
+/* DIV MENU */
+.menu {
+    /* COR DO FUNDO DA DIV MENU */
+    background-color: #D4A276;
+    /* ORGANIZAR AS TAGS FILHAS/ FLEX:LINHA (ALGUMAS FUNÇÕES SÓ FUNCIONAM COM O DISPLAY FLEX) */
+    display: flex;
+    /* SEPARAÇÃO DOS ÍCONES COM PORCENTAGEM */
+    gap: 20%;
+    /* ALTURA */
+    height: 25px;
+    /* LARGURA */
+    width: 1270px;
+    align-items: center;
+    justify-content: center;
+    /* CHAMAR A FONTE NEGRITO */
+    font-family: 'Sen', sans-serif;
+}
+
+/* DIV DO CORPO DA MAIN */
+.corpo {
+    /* CHAMAR A FONTE DO HTML PARA O CSS */
+    font-family: 'Sen', sans-serif;
+    /* COR DO FUNDO DA DIV MENU */
+    background-color: #FFEDD8;
+    /* ORGANIZAR AS TAGS FILHAS/ FLEX:LINHA (ALGUMAS FUNÇÕES SÓ FUNCIONAM COM O DISPLAY FLEX) */
+    display: flex;
+    /* SEPARAÇÃO DOS ÍCONES COM PORCENTAGEM */
+    gap: 20%;
+    /* ALTURA */
+    height: 500px;
+    /* LARGURA */
+    width: 1270px;
+
+
+
+}
